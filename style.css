@@ -76,3 +76,40 @@ top:50px;
     left: 15px;
     color: red;
 }
+
+
+.side-content{
+    background-color: #e1e0e0b5;
+border: 2px solid yellowgreen;
+display: flex;
+width: 300px;
+margin-left: 60px;
+height: 88vh;
+
+}
+
+.content-ul{
+margin-left: 26px;
+margin-top: 10px;
+}
+
+.side-ul{
+text-decoration: none;
+list-style: none;
+font-size: 24px;
+display: block;
+
+
+}
+span{
+    font-size: 17px;
+    margin-left: 10px;
+}
+#side-icon{
+    padding: 20px;
+}
+
+hr{
+    width: 273px;
+    height: px;
+}
