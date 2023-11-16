@@ -6,7 +6,7 @@
     margin-top: 30px;
 }
 .sidebar{
-    border: 2px solid red;
+border-right: 1px solid rgb(173, 173, 170);
     width: 60px;
     height: 99vh;
     display: flex;
@@ -37,14 +37,16 @@ font-size: 20px;
 }
 
 .header{
-    border: 2px solid blue;
+    border-left: 1px solid rgb(223, 186, 149);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 64px;
+    margin-left: 60px;
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color: #f0f0f0af;
     height: 60px;
+    border-bottom: 1px solid rgb(174, 172, 172);
+    
     
 }
 .content h1{
@@ -79,18 +81,19 @@ top:50px;
 
 
 .side-content{
-    background-color: #e1e0e0b5;
-border: 2px solid yellowgreen;
+    background-color: #e1e0e059;
+border-right: 1px solid rgb(188, 187, 186);
 display: flex;
 width: 300px;
 margin-left: 60px;
 height: 88vh;
+position: fixed;
 
 }
 
 .content-ul{
-margin-left: 26px;
-margin-top: 10px;
+margin-left: 0px;
+margin-top: 0px;
 }
 
 .side-ul{
@@ -106,10 +109,98 @@ span{
     margin-left: 10px;
 }
 #side-icon{
+    text-decoration: none;
     padding: 20px;
 }
 
 hr{
-    width: 273px;
+    width: 298px;
     height: px;
+}
+
+.messages{
+
+margin-left: 295px;
+margin-top: 790px;
+display: flex;
+justify-content: center;
+
+}
+.input{
+
+}
+input{
+    width: 1300px;
+    padding: 11px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgba(220, 220, 220, 0.213);
+    
+}
+button{
+    background-color: rgb(106, 29, 179);
+    padding:10px 20px 10px 20px;
+    color: aliceblue;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: 10px;
+
+}
+
+.chat{
+   position: relative;
+}
+.img{
+    position: absolute;
+    bottom: 300px;
+    left: 400px;
+    
+}
+.img img{
+width: 30px;
+}
+.h5{
+    
+    
+    font-size: 15px;
+}
+.paragraph{
+
+width: 600px;
+position: absolute;
+bottom: 230px;
+left: 400px;
+
+
+
+
+}
+.paragraph p{
+background-color: rgba(232, 227, 227, 0.438);
+border-radius: 5px 5px 5px 5px;
+padding: 10px;
+
+}
+
+
+.chat-2{
+position: relative;
+}
+
+.img2{
+position: absolute;
+bottom: 150px;
+right: 55px;
+}
+.img2 img{
+    width: 30px;
+}
+.para{
+position: absolute;
+bottom: 110px;
+right: 100px;
+}
+.para p{
+background-color: rgb(235, 223, 226);
+padding: 10px;
+border-radius: 5px;
 }
